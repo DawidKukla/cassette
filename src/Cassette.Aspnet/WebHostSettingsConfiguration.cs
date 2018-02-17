@@ -28,7 +28,7 @@ namespace Cassette.Aspnet
             settings.AllowRemoteDiagnostics = configurationSection.AllowRemoteDiagnostics;
             settings.SourceDirectory = new FileSystemDirectory(AppDomainAppPath);
             settings.CacheDirectory = GetCacheDirectory(configurationSection);
-            settings.IsFileSystemWatchingEnabled = TrustLevel.IsFullTrust() && !IsStaticCacheManifest(settings);
+            settings.IsFileSystemWatchingEnabled = configurationSection.IsFileSystemWatchingEnabled && TrustLevel.IsFullTrust() && !IsStaticCacheManifest(settings);
 
             IsStaticCacheManifest(settings);
 

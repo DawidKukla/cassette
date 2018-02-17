@@ -38,5 +38,13 @@ namespace Cassette
             get { return (bool)this["isolatedStoragePerDomain"]; }
             set { this["isolatedStoragePerDomain"] = value; }
         }
+        
+        [ConfigurationProperty("isFileSystemWatchingEnabled", DefaultValue = true)]
+        public bool IsFileSystemWatchingEnabled
+        {
+            get { return (bool)this["isFileSystemWatchingEnabled"]; }
+            set { this["isFileSystemWatchingEnabled"] = value; }
+        }
+        
     }
 }
