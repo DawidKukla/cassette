@@ -1046,6 +1046,7 @@
           <e p="WebApiConfig.cs" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
+        <e p="CassetteConfiguration.cs" t="Include" />
         <e p="Content" t="Include">
           <e p="bootstrap-theme.css" t="Include" />
           <e p="bootstrap-theme.css.map" t="Include" />
@@ -1079,10 +1080,13 @@
         <e p="scripts" t="Include">
           <e p="bootstrap.js" t="Include" />
           <e p="bootstrap.min.js" t="Include" />
-          <e p="jquery-1.9.1-vsdoc.js" t="Include" />
-          <e p="jquery-1.9.1.js" t="Include" />
-          <e p="jquery-1.9.1.min.js" t="Include" />
-          <e p="jquery-1.9.1.min.map" t="Include" />
+          <e p="jquery-3.3.1-vsdoc.js" t="Include" />
+          <e p="jquery-3.3.1.js" t="Include" />
+          <e p="jquery-3.3.1.min.js" t="Include" />
+          <e p="jquery-3.3.1.min.map" t="Include" />
+          <e p="jquery-3.3.1.slim.js" t="Include" />
+          <e p="jquery-3.3.1.slim.min.js" t="Include" />
+          <e p="jquery-3.3.1.slim.min.map" t="Include" />
           <e p="site.js" t="Include" />
         </e>
         <e p="TestSite.csproj" t="IncludeRecursive" />
