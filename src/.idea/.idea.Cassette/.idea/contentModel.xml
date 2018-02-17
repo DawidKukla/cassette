@@ -1,0 +1,1294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Admin\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_Cassette.441233344.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Admin\RiderProjects\cassette\src" t="IncludeFlat">
+      <e p=".nuget" t="Include">
+        <e p="NuGet.Config" t="Include" />
+        <e p="NuGet.exe" t="Include" />
+        <e p="NuGet.targets" t="Include" />
+      </e>
+      <e p="cassette" t="IncludeRecursive">
+        <e p="AssemblyScanner.cs" t="Include" />
+        <e p="AssetBase.cs" t="Include" />
+        <e p="AssetDeserializer.cs" t="Include" />
+        <e p="AssetFinder.cs" t="Include" />
+        <e p="AssetPathComparer.cs" t="Include" />
+        <e p="AssetReference.cs" t="Include" />
+        <e p="AssetReferenceException.cs" t="Include" />
+        <e p="AssetReferenceType.cs" t="Include" />
+        <e p="AssetSerializer.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Bundle.cs" t="Include" />
+        <e p="BundleCacheRebuilder.cs" t="Include" />
+        <e p="BundleCollection.cs" t="Include" />
+        <e p="BundleCollectionChangedEventArgs.cs" t="Include" />
+        <e p="BundleCollectionInitializer.cs" t="Include" />
+        <e p="BundleContainsPathPredicate.cs" t="Include" />
+        <e p="BundleDescriptor.cs" t="Include" />
+        <e p="BundleDescriptorReader.cs" t="Include" />
+        <e p="BundleDeserializer.cs" t="Include" />
+        <e p="BundleEnumerableExtensions.cs" t="Include" />
+        <e p="BundleFactoryBase.cs" t="Include" />
+        <e p="BundleFactoryExtensions.cs" t="Include" />
+        <e p="BundleFactoryProvider.cs" t="Include" />
+        <e p="BundleProcessing" t="Include">
+          <e p="AddTransformerToAssets.cs" t="Include" />
+          <e p="AssignContentType.cs" t="Include" />
+          <e p="AssignHash.cs" t="Include" />
+          <e p="BundlePipeline.cs" t="Include" />
+          <e p="BundlePipelineHelpers.cs" t="Include" />
+          <e p="Comment.cs" t="Include" />
+          <e p="CompileAsset.cs" t="Include" />
+          <e p="ConcatenateAssets.cs" t="Include" />
+          <e p="ConcatenatedAsset.cs" t="Include" />
+          <e p="ExternalBundleGenerator.cs" t="Include" />
+          <e p="IBundlePipeline.cs" t="Include" />
+          <e p="IBundlePipelineModifier.cs" t="Include" />
+          <e p="IBundleProcessor.cs" t="Include" />
+          <e p="ICommentParser.cs" t="Include" />
+          <e p="MinifyAssets.cs" t="Include" />
+          <e p="ParseReferences.cs" t="Include" />
+          <e p="ReferenceParser.cs" t="Include" />
+          <e p="SortAssetsByDependency.cs" t="Include" />
+        </e>
+        <e p="BundleReferenceCollector.cs" t="Include" />
+        <e p="BundleSerializer.cs" t="Include" />
+        <e p="CacheAwareBundleCollectionInitializer.cs" t="Include" />
+        <e p="CachedBundleContent.cs" t="Include" />
+        <e p="Caching" t="Include">
+          <e p="BundleCollectionCache.cs" t="Include" />
+          <e p="BundleCollectionCacheReader.cs" t="Include" />
+          <e p="BundleCollectionCacheWriter.cs" t="Include" />
+          <e p="CacheReadResult.cs" t="Include" />
+          <e p="FileAssetCacheValidator.cs" t="Include" />
+          <e p="IAssetCacheValidator.cs" t="Include" />
+          <e p="IBundleCollectionCache.cs" t="Include" />
+          <e p="Manifest.cs" t="Include" />
+          <e p="ManifestValidator.cs" t="Include" />
+          <e p="ResourceAssetCacheValidator.cs" t="Include" />
+        </e>
+        <e p="Cassette.csproj" t="IncludeRecursive" />
+        <e p="Cassette.nutrans" t="Include" />
+        <e p="Cassette.symbols.nutrans" t="Include" />
+        <e p="CassetteConfigurationSection.cs" t="Include" />
+        <e p="CassetteDeserializationException.cs" t="Include" />
+        <e p="CassetteSettings.cs" t="Include" />
+        <e p="CompileContext.cs" t="Include" />
+        <e p="CompileResult.cs" t="Include" />
+        <e p="ConditionalRenderer.cs" t="Include" />
+        <e p="ConfigurationEnumerableExtensions.cs" t="Include" />
+        <e p="ConfigurationOrderAttribute.cs" t="Include" />
+        <e p="ContainerConfiguration.cs" t="Include" />
+        <e p="ConventionalMinifiedFileFilter.cs" t="Include" />
+        <e p="DelegatingDisposable.cs" t="Include" />
+        <e p="DeserializedAsset.cs" t="Include" />
+        <e p="Diagnostics" t="Include">
+          <e p="Trace.cs" t="Include" />
+        </e>
+        <e p="ExceptionCatchingBundleCollectionInitializer.cs" t="Include" />
+        <e p="FileAccessAuthorization.cs" t="Include" />
+        <e p="FileAsset.cs" t="Include" />
+        <e p="FileContentHasher.cs" t="Include" />
+        <e p="FilePathComparer.cs" t="Include" />
+        <e p="FileSearch.cs" t="Include" />
+        <e p="FileSearchProvider.cs" t="Include" />
+        <e p="FileSystemWatchingBundleRebuilder.cs" t="Include" />
+        <e p="HostBase.cs" t="Include" />
+        <e p="HtmlAttributeDictionary.cs" t="Include" />
+        <e p="HtmlTemplates" t="Include">
+          <e p="AddHtmlTemplateToJavaScriptTransformers.cs" t="Include" />
+          <e p="AssignHtmlTemplateRenderer.cs" t="Include" />
+          <e p="HtmlTemplateBundle.cs" t="Include" />
+          <e p="HtmlTemplateBundleDeserializer.cs" t="Include" />
+          <e p="HtmlTemplateBundleExtensions.cs" t="Include" />
+          <e p="HtmlTemplateBundleFactory.cs" t="Include" />
+          <e p="HtmlTemplateBundleSerializer.cs" t="Include" />
+          <e p="HtmlTemplateCommentParser.cs" t="Include" />
+          <e p="HtmlTemplateIdBuilder.cs" t="Include" />
+          <e p="HtmlTemplatePipeline.cs" t="Include" />
+          <e p="HtmlTemplatesContainerConfiguration.cs" t="Include" />
+          <e p="HtmlTemplateToJavaScriptTransformer.cs" t="Include" />
+          <e p="IHtmlTemplateIdStrategy.cs" t="Include" />
+          <e p="InlineHtmlTemplateBundleRenderer.cs" t="Include" />
+          <e p="JavaScriptHtmlTemplatePipeline.cs" t="Include" />
+          <e p="ParseHtmlTemplateReferences.cs" t="Include" />
+          <e p="RemoteHtmlTemplateBundleRenderer.cs" t="Include" />
+          <e p="WrapHtmlTemplateInScriptElement.cs" t="Include" />
+          <e p="WrapHtmlTemplatesInScriptElements.cs" t="Include" />
+          <e p="WrapJavaScriptHtmlTemplates.cs" t="Include" />
+          <e p="WrapJavaScriptHtmlTemplatesTransformer.cs" t="Include" />
+        </e>
+        <e p="IAsset.cs" t="Include" />
+        <e p="IAssetTransformer.cs" t="Include" />
+        <e p="IBundleCacheRebuilder.cs" t="Include" />
+        <e p="IBundleCollectionInitializer.cs" t="Include" />
+        <e p="IBundleDeserializer.cs" t="Include" />
+        <e p="IBundleFactory.cs" t="Include" />
+        <e p="IBundleFactoryProvider.cs" t="Include" />
+        <e p="IBundleHtmlRenderer.cs" t="Include" />
+        <e p="IBundleVisitor.cs" t="Include" />
+        <e p="ICompiler.cs" t="Include" />
+        <e p="IConfiguration.cs" t="Include" />
+        <e p="IExternalBundle.cs" t="Include" />
+        <e p="IFileAccessAuthorization.cs" t="Include" />
+        <e p="IFileContentHasher.cs" t="Include" />
+        <e p="IFileSearch.cs" t="Include" />
+        <e p="IFileSearchModifier.cs" t="Include" />
+        <e p="IFileSearchProvider.cs" t="Include" />
+        <e p="IJsonSerializer.cs" t="Include" />
+        <e p="Interop" t="Include">
+          <e p="ActiveScriptException.cs" t="Include" />
+          <e p="ActiveScriptParseWrapper.cs" t="Include" />
+          <e p="ChakraJavaScriptEngine.cs" t="Include" />
+          <e p="IActiveScript.cs" t="Include" />
+          <e p="IActiveScriptError.cs" t="Include" />
+          <e p="IActiveScriptParse32.cs" t="Include" />
+          <e p="IActiveScriptParse64.cs" t="Include" />
+          <e p="IActiveScriptParseWrapper.cs" t="Include" />
+          <e p="IActiveScriptSite.cs" t="Include" />
+          <e p="IEJavaScriptEngine.cs" t="Include" />
+          <e p="JavaScriptEngine.cs" t="Include" />
+          <e p="ScriptInfoFlags.cs" t="Include" />
+          <e p="ScriptInterruptFlags.cs" t="Include" />
+          <e p="ScriptItemFlags.cs" t="Include" />
+          <e p="ScriptState.cs" t="Include" />
+          <e p="ScriptTextFlags.cs" t="Include" />
+          <e p="ScriptThreadState.cs" t="Include" />
+          <e p="ScriptTypeLibFlags.cs" t="Include" />
+        </e>
+        <e p="IO" t="Include">
+          <e p="FileExtensions.cs" t="Include" />
+          <e p="FileSystemDirectory.cs" t="Include" />
+          <e p="FileSystemFile.cs" t="Include" />
+          <e p="IDirectory.cs" t="Include" />
+          <e p="IFile.cs" t="Include" />
+          <e p="IsolatedStorageDirectory.cs" t="Include" />
+          <e p="IsolatedStorageFile.cs" t="Include" />
+          <e p="NonExistentFile.cs" t="Include" />
+        </e>
+        <e p="IPlaceholderTracker.cs" t="Include" />
+        <e p="IReferenceBuilder.cs" t="Include" />
+        <e p="IStartUpTask.cs" t="Include" />
+        <e p="IUrlGenerator.cs" t="Include" />
+        <e p="IUrlModifier.cs" t="Include" />
+        <e p="LocalAssetSettings.cs" t="Include" />
+        <e p="NullPlaceholderTracker.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="PlaceholderTracker.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+        </e>
+        <e p="RawFileReferenceFinder.cs" t="Include" />
+        <e p="ReferenceBuilder.cs" t="Include" />
+        <e p="ResourceAsset.cs" t="Include" />
+        <e p="RuntimeBundleCollectionInitializer.cs" t="Include" />
+        <e p="scripts" t="Include">
+          <e p="AssignScriptRenderer.cs" t="Include" />
+          <e p="DebugScriptBundleHtmlRenderer.cs" t="Include" />
+          <e p="ExternalScriptBundle.cs" t="Include" />
+          <e p="ExternalScriptBundleDeserializer.cs" t="Include" />
+          <e p="ExternalScriptBundleSerializer.cs" t="Include" />
+          <e p="HtmlConstants.cs" t="Include" />
+          <e p="IJavaScriptMinifier.cs" t="Include" />
+          <e p="InlineScriptBundle.cs" t="Include" />
+          <e p="JavaScriptCommentParser.cs" t="Include" />
+          <e p="JavaScriptReferenceParser.cs" t="Include" />
+          <e p="MicrosoftJavaScriptMinifier.cs" t="Include" />
+          <e p="PageDataScriptBundle.cs" t="Include" />
+          <e p="ParseJavaScriptReferences.cs" t="Include" />
+          <e p="ScriptBundle.cs" t="Include" />
+          <e p="ScriptBundleDeserializer.cs" t="Include" />
+          <e p="ScriptBundleDeserializerBase.cs" t="Include" />
+          <e p="ScriptBundleFactory.cs" t="Include" />
+          <e p="ScriptBundleHtmlRenderer.cs" t="Include" />
+          <e p="ScriptBundleSerializer.cs" t="Include" />
+          <e p="ScriptBundleSerializerBase.cs" t="Include" />
+          <e p="ScriptContainerConfiguration.cs" t="Include" />
+          <e p="ScriptPipeline.cs" t="Include" />
+        </e>
+        <e p="ServicesConfiguration.cs" t="Include" />
+        <e p="SettingsVersionAssigner.cs" t="Include" />
+        <e p="SimpleJson" t="Include">
+          <e p="SimpleJson.cs" t="Include" />
+          <e p="SimpleJsonSerializer.cs" t="Include" />
+        </e>
+        <e p="Stylesheets" t="Include">
+          <e p="AssignStylesheetRenderer.cs" t="Include" />
+          <e p="ConvertFontUrlsToDataUris.cs" t="Include" />
+          <e p="ConvertImageUrlsToDataUris.cs" t="Include" />
+          <e p="CssCommentParser.cs" t="Include" />
+          <e p="CssFontToDataUriTransformer.cs" t="Include" />
+          <e p="CssImageToDataUriTransformer.cs" t="Include" />
+          <e p="CssUrlMatchTransformer.cs" t="Include" />
+          <e p="CssUrlToDataUriTransformer.cs" t="Include" />
+          <e p="DebugStylesheetHtmlRenderer.cs" t="Include" />
+          <e p="ExpandCssUrls.cs" t="Include" />
+          <e p="ExpandCssUrlsAssetTransformer.cs" t="Include" />
+          <e p="ExternalStylesheetBundle.cs" t="Include" />
+          <e p="ExternalStylesheetBundleDeserializer.cs" t="Include" />
+          <e p="ExternalStylesheetBundleSerializer.cs" t="Include" />
+          <e p="HtmlConstants.cs" t="Include" />
+          <e p="IStylesheetMinifier.cs" t="Include" />
+          <e p="MicrosoftStylesheetMinifier.cs" t="Include" />
+          <e p="ParseCssReferences.cs" t="Include" />
+          <e p="StylesheetBundle.cs" t="Include" />
+          <e p="StylesheetBundleDeserializer.cs" t="Include" />
+          <e p="StylesheetBundleDeserializerBase.cs" t="Include" />
+          <e p="StylesheetBundleExtensions.cs" t="Include" />
+          <e p="StylesheetBundleFactory.cs" t="Include" />
+          <e p="StylesheetBundleSerializer.cs" t="Include" />
+          <e p="StylesheetBundleSerializerBase.cs" t="Include" />
+          <e p="StylesheetHtmlRenderer.cs" t="Include" />
+          <e p="StylesheetPipeline.cs" t="Include" />
+          <e p="StylesheetsContainerConfiguration.cs" t="Include" />
+        </e>
+        <e p="TinyIoC" t="Include">
+          <e p="TinyIoC.cs" t="Include" />
+          <e p="TinyIoCExtensions.cs" t="Include" />
+        </e>
+        <e p="UrlGenerator.cs" t="Include" />
+        <e p="Utilities" t="Include">
+          <e p="ByteArrayExtensions.cs" t="Include" />
+          <e p="DisposableLazy.cs" t="Include" />
+          <e p="Graph.cs" t="Include" />
+          <e p="HashedSets.cs" t="Include" />
+          <e p="JavaScriptUtilities.cs" t="Include" />
+          <e p="PathUtilities.cs" t="Include" />
+          <e p="StreamExtensions.cs" t="Include" />
+          <e p="StringExtensions.cs" t="Include" />
+          <e p="XElementExtensions.cs" t="Include" />
+        </e>
+        <e p="VirtualDirectoryPrepender.cs" t="Include" />
+      </e>
+      <e p="Cassette.Aspnet" t="IncludeRecursive">
+        <e p="AssetRequestHandler.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BundleRequestHandler.cs" t="Include" />
+        <e p="CachedFileRequestHandler.cs" t="Include" />
+        <e p="Cassette.Aspnet.csproj" t="IncludeRecursive" />
+        <e p="Cassette.Aspnet.nutrans" t="Include" />
+        <e p="Cassette.Aspnet.symbols.nutrans" t="Include" />
+        <e p="CassetteConfiguration.cs.pp" t="Include" />
+        <e p="CassetteHttpHandler.cs" t="Include" />
+        <e p="CassetteHttpModule.cs" t="Include" />
+        <e p="ContentTypes.cs" t="Include" />
+        <e p="DiagnosticBundleConfiguration.cs" t="Include" />
+        <e p="DiagnosticRequestHandler.cs" t="Include" />
+        <e p="HttpContextExtensions.cs" t="Include" />
+        <e p="HttpContextLifetimeProvider.cs" t="Include" />
+        <e p="HttpResponseUtil.cs" t="Include" />
+        <e p="ICassetteRequestHandler.cs" t="Include" />
+        <e p="IDiagnosticRequestHandler.cs" t="Include" />
+        <e p="IsolatedStorageContainer.cs" t="Include" />
+        <e p="MimeMappingWrapper.cs" t="Include" />
+        <e p="nuget-readme.txt" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="PlaceholderReplacingResponseFilter.cs" t="Include" />
+        <e p="PlaceholderRewriter.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+        </e>
+        <e p="RawFileRequestRewriter.cs" t="Include" />
+        <e p="Resources" t="Include">
+          <e p="diagnostic-page.js" t="Include" />
+          <e p="hud.htm" t="Include" />
+          <e p="jquery.js" t="Include" />
+          <e p="knockout.js" t="Include" />
+        </e>
+        <e p="StartUpTraceRecorder.cs" t="Include" />
+        <e p="StringBuilderTraceListener.cs" t="Include" />
+        <e p="TrustLevel.cs" t="Include" />
+        <e p="Web.config.transform" t="Include" />
+        <e p="WebHost.cs" t="Include" />
+        <e p="WebHostSettingsConfiguration.cs" t="Include" />
+      </e>
+      <e p="Cassette.Aspnet.Jasmine" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Cassette.Aspnet.Jasmine.csproj" t="IncludeRecursive" />
+        <e p="Cassette.Aspnet.Jasmine.nutrans" t="Include" />
+        <e p="Cassette.Aspnet.Jasmine.symbols.nutrans" t="Include" />
+        <e p="help.htm" t="Include" />
+        <e p="jasmine-license.txt" t="Include" />
+        <e p="jasmine.css" t="Include" />
+        <e p="jasmine.js" t="Include" />
+        <e p="JasmineBundleConfiguration.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="PageHandler.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+        </e>
+        <e p="runner.htm" t="Include" />
+        <e p="Web.config.transform" t="Include" />
+      </e>
+      <e p="Cassette.Aspnet.Jasmine.UnitTests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Cassette.Aspnet.Jasmine.UnitTests.csproj" t="IncludeRecursive" />
+        <e p="JasmineBundleConfiguration.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Cassette.Aspnet.UnitTests" t="IncludeRecursive">
+        <e p="AssetRequestHandler.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BundleRequestHandler.cs" t="Include" />
+        <e p="CachedFileRequestHandler.cs" t="Include" />
+        <e p="Cassette.Aspnet.UnitTests.csproj" t="IncludeRecursive" />
+        <e p="CassetteHttpHandler.cs" t="Include" />
+        <e p="DiagnosticRequestHandler.cs" t="Include" />
+        <e p="HttpContextExtensions.cs" t="Include" />
+        <e p="HttpTestHarness.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="PlaceholderReplacingResponseFilter.cs" t="Include" />
+        <e p="PlaceholderRewriter.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="RawFileRequestRewriter.cs" t="Include" />
+        <e p="StringBuilderTraceListener.cs" t="Include" />
+        <e p="WebHostSettingsConfiguration.cs" t="Include" />
+      </e>
+      <e p="Cassette.CoffeeScript" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Cassette.CoffeeScript.csproj" t="IncludeRecursive" />
+        <e p="Cassette.CoffeeScript.nutrans" t="Include" />
+        <e p="Cassette.CoffeeScript.symbols.nutrans" t="Include" />
+        <e p="CoffeeScriptBundlePipelineModifier.cs" t="Include" />
+        <e p="CoffeeScriptCommentParser.cs" t="Include" />
+        <e p="CoffeeScriptCompileException.cs" t="Include" />
+        <e p="CoffeeScriptFileSearchModifier.cs" t="Include" />
+        <e p="CoffeeScriptServices.cs" t="Include" />
+        <e p="CompileCoffeeScript.cs" t="Include" />
+        <e p="ICoffeeScriptCompiler.cs" t="Include" />
+        <e p="IECoffeeScriptCompilationQueue.cs" t="Include" />
+        <e p="IECoffeeScriptCompilationQueueStarter.cs" t="Include" />
+        <e p="IECoffeeScriptCompiler.cs" t="Include" />
+        <e p="JurassicCoffeeScriptCompiler.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="ParseCoffeeScriptReferences.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+        </e>
+        <e p="Resources" t="Include">
+          <e p="coffeescript.js" t="Include" />
+        </e>
+      </e>
+      <e p="Cassette.CoffeeScript.UnitTests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Cassette.CoffeeScript.UnitTests.csproj" t="IncludeRecursive" />
+        <e p="CoffeeScriptBundlePipelineModifier.cs" t="Include" />
+        <e p="CoffeeScriptCommentParser.cs" t="Include" />
+        <e p="CoffeeScriptFileSearchModifier.cs" t="Include" />
+        <e p="CompileCoffeeScript.cs" t="Include" />
+        <e p="IEJavaScriptEngine.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="ParseCoffeeScriptReferences.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Cassette.Hogan" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Cassette.Hogan.csproj" t="IncludeRecursive" />
+        <e p="Cassette.Hogan.nutrans" t="Include" />
+        <e p="Cassette.Hogan.symbols.nutrans" t="Include" />
+        <e p="CompileHogan.cs" t="Include" />
+        <e p="DefineJavaScriptVariable.cs" t="Include" />
+        <e p="HoganCompiler.cs" t="Include" />
+        <e p="HoganFileSearchModifier.cs" t="Include" />
+        <e p="HoganPipeline.cs" t="Include" />
+        <e p="HoganServices.cs" t="Include" />
+        <e p="HoganSettings.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+        </e>
+        <e p="RegisterTemplatesWithHogan.cs" t="Include" />
+        <e p="RegisterTemplateWithHogan.cs" t="Include" />
+        <e p="Resources" t="Include">
+          <e p="hogan.js" t="Include" />
+        </e>
+      </e>
+      <e p="Cassette.Hogan.UnitTests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Cassette.Hogan.UnitTests.csproj" t="IncludeRecursive" />
+        <e p="HoganCompiler.cs" t="Include" />
+        <e p="HoganFileSearchModifier.cs" t="Include" />
+        <e p="HoganPipeline.cs" t="Include" />
+        <e p="HoganServices.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Cassette.IntegrationTests" t="IncludeRecursive">
+        <e p="assets" t="Include">
+          <e p="scripts" t="Include">
+            <e p="bundle-a" t="Include">
+              <e p="asset-1.js" t="Include" />
+              <e p="asset-2.js" t="Include" />
+            </e>
+            <e p="bundle-b" t="Include">
+              <e p="asset-3-vsdoc.js" t="Include" />
+              <e p="asset-3.js" t="Include" />
+            </e>
+            <e p="bundle-c" t="Include">
+              <e p="asset.coffee" t="Include" />
+            </e>
+            <e p="bundle-d" t="Include">
+              <e p="asset-4.js" t="Include" />
+              <e p="bundle.txt" t="Include" />
+            </e>
+          </e>
+          <e p="styles" t="Include">
+            <e p="bundle-a" t="Include">
+              <e p="asset-1.css" t="Include" />
+              <e p="asset-2.css" t="Include" />
+              <e p="asset-3.scss" t="Include" />
+            </e>
+            <e p="bundle-b" t="Include">
+              <e p="_variables.scss" t="Include" />
+              <e p="bundle.txt" t="Include" />
+              <e p="page.scss" t="Include" />
+            </e>
+          </e>
+          <e p="templates" t="Include">
+            <e p="asset-1.htm" t="Include" />
+            <e p="asset-2.htm" t="Include" />
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="bootstrap" t="Include">
+          <e p="accordion.less" t="Include" />
+          <e p="alerts.less" t="Include" />
+          <e p="badges.less" t="Include" />
+          <e p="bootstrap.less" t="Include" />
+          <e p="breadcrumbs.less" t="Include" />
+          <e p="button-groups.less" t="Include" />
+          <e p="buttons.less" t="Include" />
+          <e p="carousel.less" t="Include" />
+          <e p="close.less" t="Include" />
+          <e p="code.less" t="Include" />
+          <e p="component-animations.less" t="Include" />
+          <e p="dropdowns.less" t="Include" />
+          <e p="forms.less" t="Include" />
+          <e p="grid.less" t="Include" />
+          <e p="hero-unit.less" t="Include" />
+          <e p="labels.less" t="Include" />
+          <e p="layouts.less" t="Include" />
+          <e p="mixins.less" t="Include" />
+          <e p="modals.less" t="Include" />
+          <e p="navbar.less" t="Include" />
+          <e p="navs.less" t="Include" />
+          <e p="pager.less" t="Include" />
+          <e p="pagination.less" t="Include" />
+          <e p="popovers.less" t="Include" />
+          <e p="progress-bars.less" t="Include" />
+          <e p="reset.less" t="Include" />
+          <e p="responsive.less" t="Include" />
+          <e p="scaffolding.less" t="Include" />
+          <e p="sprites.less" t="Include" />
+          <e p="tables.less" t="Include" />
+          <e p="thumbnails.less" t="Include" />
+          <e p="tooltip.less" t="Include" />
+          <e p="type.less" t="Include" />
+          <e p="utilities.less" t="Include" />
+          <e p="variables.less" t="Include" />
+          <e p="wells.less" t="Include" />
+        </e>
+        <e p="BundleConfiguration.cs" t="Include" />
+        <e p="Cassette.IntegrationTests.csproj" t="IncludeRecursive" />
+        <e p="Compilation" t="Include">
+          <e p="CoffeeScriptCompiler.cs" t="Include" />
+        </e>
+        <e p="CompilingMainTwitterBootstrapLessFile.cs" t="Include" />
+        <e p="HttpTestHarness.cs" t="Include" />
+        <e p="IsolatedStorageFileSystem.cs" t="Include" />
+        <e p="JavaScriptHtmlTemplatePipelineTests.cs" t="Include" />
+        <e p="MSBuild" t="Include">
+          <e p="CreateBundles.cs" t="Include" />
+        </e>
+        <e p="NonPathBundleTests.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="overlap" t="Include">
+          <e p="widget.css" t="Include" />
+          <e p="widget.js" t="Include" />
+        </e>
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="ShouldMatchHelper.cs" t="Include" />
+        <e p="StreamExtensions.cs" t="Include" />
+        <e p="TempDirectory.cs" t="Include" />
+        <e p="templates" t="Include">
+          <e p="asset-1.htm" t="Include" />
+          <e p="asset-2.htm" t="Include" />
+        </e>
+        <e p="TestableWebHost.cs" t="Include" />
+        <e p="WebHostTests.cs" t="Include" />
+      </e>
+      <e p="Cassette.JQueryTmpl" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Cassette.JQueryTmpl.csproj" t="IncludeRecursive" />
+        <e p="Cassette.JQueryTmpl.nutrans" t="Include" />
+        <e p="Cassette.JQueryTmpl.symbols.nutrans" t="Include" />
+        <e p="CompileJQueryTmpl.cs" t="Include" />
+        <e p="JQueryTmplCompiler.cs" t="Include" />
+        <e p="JQueryTmplPipeline.cs" t="Include" />
+        <e p="JQueryTmplServices.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+        </e>
+        <e p="RegisterTemplatesWithJQueryTmpl.cs" t="Include" />
+        <e p="RegisterTemplateWithJQueryTmpl.cs" t="Include" />
+        <e p="Resources" t="Include">
+          <e p="jqueryTmplCompiler.js" t="Include" />
+        </e>
+      </e>
+      <e p="Cassette.Less" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Cassette.Less.csproj" t="IncludeRecursive" />
+        <e p="Cassette.Less.nutrans" t="Include" />
+        <e p="Cassette.Less.symbols.nutrans" t="Include" />
+        <e p="CompileLess.cs" t="Include" />
+        <e p="ILessCompiler.cs" t="Include" />
+        <e p="LessBundlePipelineModifier.cs" t="Include" />
+        <e p="LessCompileException.cs" t="Include" />
+        <e p="LessCompiler.cs" t="Include" />
+        <e p="LessFileSearchModifier.cs" t="Include" />
+        <e p="LessServices.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="ParseLessReferences.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Cassette.Less.UnitTests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Cassette.Less.UnitTests.csproj" t="IncludeRecursive" />
+        <e p="CompileLess.cs" t="Include" />
+        <e p="LessBundlePipelineModifier.cs" t="Include" />
+        <e p="LessCompileException.cs" t="Include" />
+        <e p="LessCompiler.cs" t="Include" />
+        <e p="LessFileSearchModifier.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="ParseLessReferences.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Cassette.MSBuild" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Cassette.MSBuild.csproj" t="IncludeRecursive" />
+        <e p="Cassette.MSBuild.nutrans" t="Include" />
+        <e p="Cassette.MSBuild.symbols.nutrans" t="Include" />
+        <e p="Cassette.targets" t="Include" />
+        <e p="CombinePathWithUrl.cs" t="Include" />
+        <e p="CreateBundles.cs" t="Include" />
+        <e p="CreateBundlesCommand.cs" t="Include" />
+        <e p="install.ps1" t="Include" />
+        <e p="MSBuildHost.cs" t="Include" />
+        <e p="MsBuildHostSettingsConfiguration.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="PathPrepender.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="RawFileCopier.cs" t="Include" />
+        <e p="uninstall.ps1" t="Include" />
+        <e p="Web.config.transform" t="Include" />
+      </e>
+      <e p="Cassette.MSBuild.UnitTests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Cassette.MSBuild.UnitTests.csproj" t="IncludeRecursive" />
+        <e p="CreateBundlesWithRawFilesTests.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Cassette.RequireJS" t="IncludeRecursive">
+        <e p="AlwaysValidAssetCacheValidator.cs" t="Include" />
+        <e p="AnonymousModule.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BundleCollectionExtensions.cs" t="Include" />
+        <e p="BundleCollectionExtensionsUtilities.cs" t="Include" />
+        <e p="Cassette.RequireJS.csproj" t="IncludeRecursive" />
+        <e p="Cassette.RequireJS.nutrans" t="Include" />
+        <e p="Cassette.RequireJS.symbols.nutrans" t="Include" />
+        <e p="ConfigurationScriptBuilder.cs" t="Include" />
+        <e p="ContainerConfiguration.cs" t="Include" />
+        <e p="IAmdModule.cs" t="Include" />
+        <e p="IConfigurationScriptBuilder.cs" t="Include" />
+        <e p="IModuleInitializer.cs" t="Include" />
+        <e p="Module.cs" t="Include" />
+        <e p="ModuleDefinitionParser.cs" t="Include" />
+        <e p="ModuleInitializer.cs" t="Include" />
+        <e p="ModuleInitializerExtensions.cs" t="Include" />
+        <e p="NamedModule.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="PlainScript.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="RequireJsConfigAsset.cs" t="Include" />
+        <e p="ViewHelper.cs" t="Include" />
+      </e>
+      <e p="Cassette.RequireJS.UnitTests" t="IncludeRecursive">
+        <e p="AnonymousModule.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Cassette.RequireJS.UnitTests.csproj" t="IncludeRecursive" />
+        <e p="ConfigurationScriptBuilder.cs" t="Include" />
+        <e p="ModuleInitializer.cs" t="Include" />
+        <e p="NamedModule.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="PlainScript.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Cassette.Sass" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Cassette.Sass.csproj" t="IncludeRecursive" />
+        <e p="Cassette.Sass.nutrans" t="Include" />
+        <e p="Cassette.Sass.symbols.nutrans" t="Include" />
+        <e p="CassettePlatformAdaptationLayer.cs" t="Include" />
+        <e p="CompileSass.cs" t="Include" />
+        <e p="ISassCompiler.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="ParseSassReferences.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="SassBundlePipelineModifier.cs" t="Include" />
+        <e p="SassCompiler.cs" t="Include" />
+        <e p="SassFileSearchModifier.cs" t="Include" />
+        <e p="SassServices.cs" t="Include" />
+      </e>
+      <e p="Cassette.Sass.UnitTests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Cassette.Sass.UnitTests.csproj" t="IncludeRecursive" />
+        <e p="CompileSass.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="SassBundlePipelineModifier.cs" t="Include" />
+        <e p="SassCompiler.cs" t="Include" />
+        <e p="SassFileSearchModifier.cs" t="Include" />
+      </e>
+      <e p="Cassette.Shared.nuspec" t="Include" />
+      <e p="Cassette.sln" t="IncludeFlat" />
+      <e p="Cassette.Spriting" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Cassette.Spriting.csproj" t="IncludeRecursive" />
+        <e p="Cassette.Spriting.nutrans" t="Include" />
+        <e p="Cassette.Spriting.symbols.nutrans" t="Include" />
+        <e p="DefaultSpritingSettingsConfiguration.cs" t="Include" />
+        <e p="ImageFileLoader.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Spritastic" t="Include">
+          <e p="Generator" t="Include">
+            <e p="CssImageExtractor.cs" t="Include" />
+            <e p="ICssImageExtractor.cs" t="Include" />
+            <e p="ISpriteContainer.cs" t="Include" />
+            <e p="ISpriteManager.cs" t="Include" />
+            <e p="SpriteContainer.cs" t="Include" />
+            <e p="SpritedImage.cs" t="Include" />
+            <e p="SpriteManager.cs" t="Include" />
+            <e p="SpriteWriter.cs" t="Include" />
+          </e>
+          <e p="ImageLoad" t="Include">
+            <e p="HttpImageLoader.cs" t="Include" />
+            <e p="IImageLoader.cs" t="Include" />
+          </e>
+          <e p="ISpriteGenerator.cs" t="Include" />
+          <e p="ISpritingSettings.cs" t="Include" />
+          <e p="License.txt" t="Include" />
+          <e p="Parser" t="Include">
+            <e p="BackgroundImageClass.cs" t="Include" />
+            <e p="Direction.cs" t="Include" />
+            <e p="Position.cs" t="Include" />
+            <e p="PositionMode.cs" t="Include" />
+            <e p="PropertyCompletion.cs" t="Include" />
+            <e p="RepeatStyle.cs" t="Include" />
+          </e>
+          <e p="readme.txt" t="Include" />
+          <e p="Selector" t="Include">
+            <e p="CssSelectorAnalyzer.cs" t="Include" />
+            <e p="ICssSelectorAnalyzer.cs" t="Include" />
+            <e p="SelectorComparer.cs" t="Include" />
+          </e>
+          <e p="Sprite.cs" t="Include" />
+          <e p="SpriteException.cs" t="Include" />
+          <e p="SpriteGenerator.cs" t="Include" />
+          <e p="SpritePackage.cs" t="Include" />
+          <e p="SpriteStore" t="Include">
+            <e p="ISpriteStore.cs" t="Include" />
+          </e>
+          <e p="Utilities" t="Include">
+            <e p="FileWrapper.cs" t="Include" />
+            <e p="IFileWrapper.cs" t="Include" />
+            <e p="IPngOptimizer.cs" t="Include" />
+            <e p="OptimizationException.cs" t="Include" />
+            <e p="PngOptimizer.cs" t="Include" />
+            <e p="RegexCache.cs" t="Include" />
+            <e p="Tracer.cs" t="Include" />
+            <e p="TrustLevelChecker.cs" t="Include" />
+            <e p="WebClientWrapper.cs" t="Include" />
+          </e>
+        </e>
+        <e p="SpritedCss.cs" t="Include" />
+        <e p="SpriteImages.cs" t="Include" />
+        <e p="SpriteUrlGenerator.cs" t="Include" />
+        <e p="SpritingContainerConfiguration.cs" t="Include" />
+        <e p="SpritingSettings.cs" t="Include" />
+        <e p="StylesheetBundleExtensions.cs" t="Include" />
+      </e>
+      <e p="Cassette.Spriting.UnitTests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Cassette.Spriting.UnitTests.csproj" t="IncludeRecursive" />
+        <e p="ImageFileLoader.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="SpriteImages.cs" t="Include" />
+        <e p="SpriteUrlGenerator.cs" t="Include" />
+        <e p="SpritingIntegrationTest.cs" t="Include" />
+        <e p="StylesheetBundleExtensions.cs" t="Include" />
+        <e p="Test.cs" t="Include" />
+      </e>
+      <e p="Cassette.TypeScript" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Cassette.TypeScript.csproj" t="IncludeRecursive" />
+        <e p="Cassette.TypeScript.nutrans" t="Include" />
+        <e p="Cassette.TypeScript.symbols.nutrans" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="ParseJavaScriptNotTypeScriptReferences.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="TypeScriptBundlePipelineModifier.cs" t="Include" />
+      </e>
+      <e p="Cassette.TypeScript.UnitTests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Cassette.TypeScript.UnitTests.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="ParseJavaScriptNotTypeScriptReferences.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="TypeScriptBundlePipelineModifier.cs" t="Include" />
+      </e>
+      <e p="Cassette.UnitTests" t="IncludeRecursive">
+        <e p="Asset.cs" t="Include" />
+        <e p="AssetDeserializer.cs" t="Include" />
+        <e p="AssetPathComparer.cs" t="Include" />
+        <e p="AssetReference.cs" t="Include" />
+        <e p="AssetSerializer.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Bundle.cs" t="Include" />
+        <e p="Bundle.Equals.cs" t="Include" />
+        <e p="BundleCollection.Add.cs" t="Include" />
+        <e p="BundleCollection.AddExplicitFiles.cs" t="Include" />
+        <e p="BundleCollection.AddPerIndividualFile.cs" t="Include" />
+        <e p="BundleCollection.AddPerSubDirectory.cs" t="Include" />
+        <e p="BundleCollection.AddUrl.cs" t="Include" />
+        <e p="BundleCollection.BuildReferences.cs" t="Include" />
+        <e p="BundleCollection.ChangedEvent.cs" t="Include" />
+        <e p="BundleCollection.cs" t="Include" />
+        <e p="BundleCollection.Equals.cs" t="Include" />
+        <e p="BundleCollection.FindBundlesContainingPath.cs" t="Include" />
+        <e p="BundleCollection.SortBundles.cs" t="Include" />
+        <e p="BundleCollectionTestsBase.cs" t="Include" />
+        <e p="BundleDescriptorReader.cs" t="Include" />
+        <e p="BundleProcessing" t="Include">
+          <e p="AssignHash.cs" t="Include" />
+          <e p="BundlePipeline.cs" t="Include" />
+          <e p="BundlePipelineHelpers.cs" t="Include" />
+          <e p="CompileAsset.cs" t="Include" />
+          <e p="ConcatenateAssets.cs" t="Include" />
+          <e p="MinifyAssets.cs" t="Include" />
+          <e p="ReferenceParser.cs" t="Include" />
+          <e p="SortAssetsByDependency.cs" t="Include" />
+          <e p="TestableBundlePipeline.cs" t="Include" />
+        </e>
+        <e p="BundleSerializer.cs" t="Include" />
+        <e p="Caching" t="Include">
+          <e p="BundleCollectionCache.Clear.cs" t="Include" />
+          <e p="BundleCollectionCache.Read.cs" t="Include" />
+          <e p="BundleCollectionCache.Write.cs" t="Include" />
+        </e>
+        <e p="Cassette.UnitTests.csproj" t="IncludeRecursive" />
+        <e p="CassetteSettings.cs" t="Include" />
+        <e p="ConcatenatedAsset.cs" t="Include" />
+        <e p="ConditionalRenderer.cs" t="Include" />
+        <e p="DefaultCassetteBootstrapper.cs" t="Include" />
+        <e p="DisposableLazy.cs" t="Include" />
+        <e p="ExceptionCatchingBundleCollectionInitializer.cs" t="Include" />
+        <e p="FakeFileSystem.cs" t="Include" />
+        <e p="FileAccessAuthorization.cs" t="Include" />
+        <e p="FileSearch.cs" t="Include" />
+        <e p="FileSearch.IsMatch.cs" t="Include" />
+        <e p="FileSystemWatchingBundleRebuilder.cs" t="Include" />
+        <e p="HostBase.cs" t="Include" />
+        <e p="HtmlAttributeDictionary.cs" t="Include" />
+        <e p="HtmlTemplates" t="Include">
+          <e p="AssignHtmlTemplateRenderer.cs" t="Include" />
+          <e p="HtmlTemplateBundle.cs" t="Include" />
+          <e p="HtmlTemplateBundleExtensions.cs" t="Include" />
+          <e p="HtmlTemplateBundleFactory.cs" t="Include" />
+          <e p="HtmlTemplateCommentParser.cs" t="Include" />
+          <e p="HtmlTemplateIdBuilder.cs" t="Include" />
+          <e p="HtmlTemplatePipeline.cs" t="Include" />
+          <e p="HtmlTemplatesContainerConfiguration.cs" t="Include" />
+          <e p="HtmlTemplateToJavaScriptTransformer.cs" t="Include" />
+          <e p="InlineHtmlTemplateRenderer.cs" t="Include" />
+          <e p="JQueryTmplCompiler.cs" t="Include" />
+          <e p="JQueryTmplPipeline.cs" t="Include" />
+          <e p="ParseHtmlTemplateReferences.cs" t="Include" />
+          <e p="RegisterTemplateWithJQueryTmpl.cs" t="Include" />
+          <e p="RemoteHtmlTemplateBundleRenderer.cs" t="Include" />
+          <e p="WrapHtmlTemplatesInScriptElements.cs" t="Include" />
+        </e>
+        <e p="Interop" t="Include">
+          <e p="IEJavaScriptEngine.cs" t="Include" />
+        </e>
+        <e p="IO" t="Include">
+          <e p="FileSystemDirectory.cs" t="Include" />
+          <e p="FileSystemFile.cs" t="Include" />
+          <e p="IsolatedStorageDirectory.cs" t="Include" />
+          <e p="IsolatedStorageFileWrapper.cs" t="Include" />
+          <e p="NonExistentFile.cs" t="Include" />
+        </e>
+        <e p="LocalAssetSettings.cs" t="Include" />
+        <e p="NullPlaceholderTracker.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="PlaceholderTracker.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="ReferenceBuilder.cs" t="Include" />
+        <e p="scripts" t="Include">
+          <e p="DebugScriptBundleHtmlRenderer.cs" t="Include" />
+          <e p="ExternalScriptBundle.cs" t="Include" />
+          <e p="ExternalScriptBundle.Render.cs" t="Include" />
+          <e p="ExternalScriptBundleDeserializer.cs" t="Include" />
+          <e p="ExternalScriptBundleSerializer.cs" t="Include" />
+          <e p="InlineScriptBundle.cs" t="Include" />
+          <e p="InlineScriptBundle.Equals.cs" t="Include" />
+          <e p="JavaScriptCommentParser.cs" t="Include" />
+          <e p="MicrosoftJavaScriptMinifier.cs" t="Include" />
+          <e p="PageDataScriptBundle.cs" t="Include" />
+          <e p="ParseJavaScriptReferences.cs" t="Include" />
+          <e p="ScriptBundle.cs" t="Include" />
+          <e p="ScriptBundleDeserializer.cs" t="Include" />
+          <e p="ScriptBundleFactory.cs" t="Include" />
+          <e p="ScriptBundleHtmlRenderer.cs" t="Include" />
+          <e p="ScriptBundleSerializer.cs" t="Include" />
+          <e p="ScriptPipeline.cs" t="Include" />
+          <e p="ScriptsContainerConfiguration.cs" t="Include" />
+        </e>
+        <e p="ServicesConfiguration.cs" t="Include" />
+        <e p="StubAsset.cs" t="Include" />
+        <e p="Stylesheets" t="Include">
+          <e p="AssignStylesheetRenderer.cs" t="Include" />
+          <e p="CssCommentParser.cs" t="Include" />
+          <e p="CssImageToDataUriTransformer.cs" t="Include" />
+          <e p="DebugStylesheetHtmlRenderer.cs" t="Include" />
+          <e p="ExpandCssUrls.cs" t="Include" />
+          <e p="ExpandCssUrlsAssetTransformer.cs" t="Include" />
+          <e p="ExternalStylesheetBundle.cs" t="Include" />
+          <e p="ExternalStylesheetBundle.Render.cs" t="Include" />
+          <e p="ExternalStylesheetBundleDeserializer.cs" t="Include" />
+          <e p="ExternalStylesheetBundleSerializer.cs" t="Include" />
+          <e p="MicrosoftStylesheetMinifier.cs" t="Include" />
+          <e p="ParseCssReferences.cs" t="Include" />
+          <e p="StylesheetBundle.cs" t="Include" />
+          <e p="StylesheetBundleDeserializer.cs" t="Include" />
+          <e p="StylesheetBundleExtensions.cs" t="Include" />
+          <e p="StylesheetBundleFactory.cs" t="Include" />
+          <e p="StylesheetBundleSerializer.cs" t="Include" />
+          <e p="StylesheetHtmlRenderer.cs" t="Include" />
+          <e p="StylesheetPipeline.cs" t="Include" />
+          <e p="StylesheetsContainerConfiguration.cs" t="Include" />
+        </e>
+        <e p="TempDirectory.cs" t="Include" />
+        <e p="TestableBundle.cs" t="Include" />
+        <e p="UrlGenerator_CreateAbsolutePathUrl_Tests.cs" t="Include" />
+        <e p="UrlGenerator_CreateAssetUrl_Tests.cs" t="Include" />
+        <e p="UrlGenerator_CreateBundleUrl_Tests.cs" t="Include" />
+        <e p="UrlGenerator_CreateRawFileUrl_Tests.cs" t="Include" />
+        <e p="UrlGeneratorTestsBase.cs" t="Include" />
+        <e p="Utilities" t="Include">
+          <e p="ByteArrayExtensions.cs" t="Include" />
+          <e p="Graph.cs" t="Include" />
+          <e p="JavaScriptUtilities.cs" t="Include" />
+          <e p="PathUtilities.cs" t="Include" />
+        </e>
+        <e p="VirtualDirectoryPrepender.cs" t="Include" />
+      </e>
+      <e p="Cassette.Views" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Bundles.cs" t="Include" />
+        <e p="BundlesHelper.cs" t="Include" />
+        <e p="Cassette.Views.csproj" t="IncludeRecursive" />
+        <e p="Cassette.Views.nutrans" t="Include" />
+        <e p="Cassette.Views.symbols.nutrans" t="Include" />
+        <e p="IBundlesHelper.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Views-Web.config.transform" t="Include" />
+        <e p="Web.config.transform" t="Include" />
+      </e>
+      <e p="Cassette.Views.UnitTests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Bundles.cs" t="Include" />
+        <e p="Bundles_FileUrl_Tests.cs" t="Include" />
+        <e p="BundlesHelper.cs" t="Include" />
+        <e p="Cassette.Views.UnitTests.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Plugins" t="Include" />
+      <e p="RequireJsSample" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CassetteConfiguration.cs" t="Include" />
+        <e p="Controllers" t="Include">
+          <e p="HomeController.cs" t="Include" />
+        </e>
+        <e p="Global.asax" t="Include" />
+        <e p="Global.asax.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="RequireJsSample.csproj" t="IncludeRecursive" />
+        <e p="scripts" t="Include">
+          <e p="app" t="Include">
+            <e p="jquery.js" t="Include" />
+            <e p="require.js" t="Include" />
+            <e p="ScriptBundle.txt" t="Include" />
+            <e p="util.js" t="Include" />
+          </e>
+          <e p="page1" t="Include">
+            <e p="init.js" t="Include" />
+            <e p="page.js" t="Include" />
+          </e>
+          <e p="page2" t="Include">
+            <e p="init.js" t="Include" />
+            <e p="page.js" t="Include" />
+          </e>
+        </e>
+        <e p="Views" t="Include">
+          <e p="Home" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Web.config" t="Include" />
+        </e>
+        <e p="Web.config" t="Include" />
+        <e p="Web.Debug.config" t="Include" />
+        <e p="Web.Release.config" t="Include" />
+      </e>
+      <e p="Samples" t="Include" />
+      <e p="Shared" t="Include" />
+      <e p="SharedAssemblyInfo.cs" t="Include" />
+      <e p="Tests" t="Include" />
+      <e p="TestSite" t="IncludeRecursive">
+        <e p="App_Start" t="Include">
+          <e p="RouteConfig.cs" t="Include" />
+          <e p="WebApiConfig.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Content" t="Include">
+          <e p="bootstrap-theme.css" t="Include" />
+          <e p="bootstrap-theme.css.map" t="Include" />
+          <e p="bootstrap-theme.min.css" t="Include" />
+          <e p="bootstrap-theme.min.css.map" t="Include" />
+          <e p="bootstrap.css" t="Include" />
+          <e p="bootstrap.css.map" t="Include" />
+          <e p="bootstrap.min.css" t="Include" />
+          <e p="bootstrap.min.css.map" t="Include" />
+          <e p="site.css" t="Include" />
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="HomeController.cs" t="Include" />
+        </e>
+        <e p="favicon.ico" t="Include" />
+        <e p="fonts" t="Include">
+          <e p="glyphicons-halflings-regular.eot" t="Include" />
+          <e p="glyphicons-halflings-regular.svg" t="Include" />
+          <e p="glyphicons-halflings-regular.ttf" t="Include" />
+          <e p="glyphicons-halflings-regular.woff" t="Include" />
+          <e p="glyphicons-halflings-regular.woff2" t="Include" />
+        </e>
+        <e p="Global.asax" t="Include" />
+        <e p="Global.asax.cs" t="Include" />
+        <e p="Models" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="scripts" t="Include">
+          <e p="bootstrap.js" t="Include" />
+          <e p="bootstrap.min.js" t="Include" />
+          <e p="jquery-1.9.1-vsdoc.js" t="Include" />
+          <e p="jquery-1.9.1.js" t="Include" />
+          <e p="jquery-1.9.1.min.js" t="Include" />
+          <e p="jquery-1.9.1.min.map" t="Include" />
+          <e p="site.js" t="Include" />
+        </e>
+        <e p="TestSite.csproj" t="IncludeRecursive" />
+        <e p="Views" t="Include">
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Home" t="Include">
+            <e p="About.cshtml" t="Include" />
+            <e p="Contact.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="Error.cshtml" t="Include" />
+          </e>
+          <e p="Web.config" t="Include" />
+        </e>
+        <e p="Web.config" t="Include" />
+      </e>
+      <e p="Website" t="IncludeRecursive">
+        <e p="assets" t="Include">
+          <e p="iestyles" t="Include">
+            <e p="iestyles.css" t="Include" />
+          </e>
+          <e p="scripts" t="Include">
+            <e p="disqus" t="Include">
+              <e p="disqus.js" t="Include" />
+            </e>
+            <e p="Home" t="Include">
+              <e p="tweets.js" t="Include" />
+            </e>
+            <e p="jquery" t="Include">
+              <e p="jquery.js" t="Include" />
+            </e>
+          </e>
+          <e p="styles" t="Include">
+            <e p="bundle.txt" t="Include" />
+            <e p="buttons.css" t="Include" />
+            <e p="code.css" t="Include" />
+            <e p="contribute.css" t="Include" />
+            <e p="documentation.css" t="Include" />
+            <e p="download.css" t="Include" />
+            <e p="footer.css" t="Include" />
+            <e p="home.css" t="Include" />
+            <e p="images" t="Include">
+              <e p="activemarker2.png" t="Include" />
+              <e p="andrew-davey.jpg" t="Include" />
+              <e p="background.jpg" t="Include" />
+              <e p="benefits-icon.png" t="Include" />
+              <e p="bullet_toggle_minus.png" t="Include" />
+              <e p="bullet_toggle_plus.png" t="Include" />
+              <e p="cassette-logo.png" t="Include" />
+              <e p="contentnoise.png" t="Include" />
+              <e p="contribute-icon.png" t="Include" />
+              <e p="docs-icon.png" t="Include" />
+              <e p="donate-count.png" t="Include" />
+              <e p="donate-icon.png" t="Include" />
+              <e p="download-background.png" t="Include" />
+              <e p="download-button-icon.png" t="Include" />
+              <e p="download-icon.png" t="Include" />
+              <e p="getting-started-icon.png" t="Include" />
+              <e p="github-logo.png" t="Include" />
+              <e p="googlegroups.png" t="Include" />
+              <e p="heart-icon.png" t="Include" />
+              <e p="nuget-logo.png" t="Include" />
+              <e p="osi-logo-small.png" t="Include" />
+              <e p="page.png" t="Include" />
+              <e p="support-icon.png" t="Include" />
+              <e p="topnoise.png" t="Include" />
+              <e p="twitter.png" t="Include" />
+              <e p="whitetwittericon.png" t="Include" />
+            </e>
+            <e p="licensing.css" t="Include" />
+            <e p="normalize.css" t="Include" />
+            <e p="page.css" t="Include" />
+            <e p="top.css" t="Include" />
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CassetteConfiguration.cs" t="Include" />
+        <e p="Controllers" t="Include">
+          <e p="DocumentationController.cs" t="Include" />
+          <e p="HomeController.cs" t="Include" />
+        </e>
+        <e p="favicon.ico" t="Include" />
+        <e p="Global.asax" t="Include" />
+        <e p="Global.asax.cs" t="Include" />
+        <e p="nuget-icon.png" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="robots.txt" t="Include" />
+        <e p="sitemap.xml" t="Include" />
+        <e p="Views" t="Include">
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Documentation" t="Include">
+            <e p="_Documentation.cshtml" t="Include" />
+            <e p="_ViewStart.cshtml" t="Include" />
+            <e p="v1" t="Include">
+              <e p="_Tree.cshtml" t="Include" />
+              <e p="AssetReferences.cshtml" t="Include" />
+              <e p="BundlesHelper.cshtml" t="Include" />
+              <e p="Configuration" t="Include">
+                <e p="AddDirectory.cshtml" t="Include" />
+                <e p="AddFile.cshtml" t="Include" />
+                <e p="AddPerSubDirectory.cshtml" t="Include" />
+                <e p="BundleDescriptorFile.cshtml" t="Include" />
+              </e>
+              <e p="Configuration.cshtml" t="Include" />
+              <e p="GettingStarted" t="Include">
+                <e p="AssetsAndBundles.cshtml" t="Include" />
+                <e p="Fx35.cshtml" t="Include" />
+                <e p="Mvc.cshtml" t="Include" />
+                <e p="WebForms.cshtml" t="Include" />
+              </e>
+              <e p="GettingStarted.cshtml" t="Include" />
+              <e p="HtmlTemplates" t="Include">
+                <e p="JQueryTmpl.cshtml" t="Include" />
+                <e p="KnockoutJSJQueryTmpl.cshtml" t="Include" />
+                <e p="MustacheHoganJS.cshtml" t="Include" />
+              </e>
+              <e p="HtmlTemplates.cshtml" t="Include" />
+              <e p="Index.cshtml" t="Include" />
+              <e p="scripts" t="Include">
+                <e p="CoffeeScript.cshtml" t="Include" />
+                <e p="External.cshtml" t="Include" />
+              </e>
+              <e p="Scripts.cshtml" t="Include" />
+              <e p="Stylesheets" t="Include">
+                <e p="DataUris.cshtml" t="Include" />
+                <e p="Less.cshtml" t="Include" />
+              </e>
+              <e p="Stylesheets.cshtml" t="Include" />
+              <e p="Tutorials" t="Include">
+                <e p="TwitterBootstrap.cshtml" t="Include" />
+              </e>
+              <e p="Tutorials.cshtml" t="Include" />
+            </e>
+            <e p="v2" t="Include">
+              <e p="_Tree.cshtml" t="Include" />
+              <e p="AssetReferences.cshtml" t="Include" />
+              <e p="BundleConfiguration" t="Include">
+                <e p="Add.cshtml" t="Include" />
+                <e p="AddEmbeddedResources.cshtml" t="Include" />
+                <e p="AddPerIndividualFile.cshtml" t="Include" />
+                <e p="AddPerSubDirectory.cshtml" t="Include" />
+                <e p="AddUrls.cshtml" t="Include" />
+                <e p="CustomizeBundles.cshtml" t="Include" />
+                <e p="FileSearch.cshtml" t="Include" />
+              </e>
+              <e p="BundleConfiguration.cshtml" t="Include" />
+              <e p="BundlePipelines.cshtml" t="Include" />
+              <e p="BundlesHelper" t="Include">
+                <e p="InlineScript.cshtml" t="Include" />
+                <e p="PageData.cshtml" t="Include" />
+                <e p="PageLocations.cshtml" t="Include" />
+                <e p="Reference.cshtml" t="Include" />
+                <e p="Render.cshtml" t="Include" />
+              </e>
+              <e p="BundlesHelper.cshtml" t="Include" />
+              <e p="HtmlTemplates" t="Include">
+                <e p="JQueryTmpl.cshtml" t="Include" />
+                <e p="MustacheHoganJS.cshtml" t="Include" />
+              </e>
+              <e p="HtmlTemplates.cshtml" t="Include" />
+              <e p="Index.cshtml" t="Include" />
+              <e p="MSBuild.cshtml" t="Include" />
+              <e p="Plugins.cshtml" t="Include" />
+              <e p="scripts" t="Include">
+                <e p="Minification.cshtml" t="Include" />
+              </e>
+              <e p="Scripts.cshtml" t="Include" />
+              <e p="Stylesheets" t="Include">
+                <e p="DataUris.cshtml" t="Include" />
+                <e p="ImageSpriting.cshtml" t="Include" />
+              </e>
+              <e p="Stylesheets.cshtml" t="Include" />
+              <e p="UpgradingFromV1ToV2.cshtml" t="Include" />
+              <e p="WebConfig.cshtml" t="Include" />
+            </e>
+          </e>
+          <e p="Helpers.cs" t="Include" />
+          <e p="Home" t="Include">
+            <e p="Benefits.cshtml" t="Include" />
+            <e p="Contact.cshtml" t="Include" />
+            <e p="Donate.cshtml" t="Include" />
+            <e p="Download.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="Licensing.cshtml" t="Include" />
+            <e p="Resources.cshtml" t="Include" />
+            <e p="Support.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="_Share.cshtml" t="Include" />
+            <e p="Error.cshtml" t="Include" />
+            <e p="NotFound.cshtml" t="Include" />
+          </e>
+          <e p="Web.config" t="Include" />
+        </e>
+        <e p="Web.config" t="Include" />
+        <e p="Web.Debug.config" t="Include" />
+        <e p="Web.Release.config" t="Include" />
+        <e p="Website.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
