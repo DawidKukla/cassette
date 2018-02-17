@@ -108,6 +108,9 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\site.js" />
+    <Content Include="Scripts\Test2\Test2.ts" />
+    <Content Include="Scripts\Test1\Test1.ts" />
+    <Content Include="tsconfig.json" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />

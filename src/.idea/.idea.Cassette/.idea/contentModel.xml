@@ -1088,8 +1088,15 @@
           <e p="jquery-3.3.1.slim.min.js" t="Include" />
           <e p="jquery-3.3.1.slim.min.map" t="Include" />
           <e p="site.js" t="Include" />
+          <e p="Test1" t="Include">
+            <e p="Test1.ts" t="Include" />
+          </e>
+          <e p="Test2" t="Include">
+            <e p="Test2.ts" t="Include" />
+          </e>
         </e>
         <e p="TestSite.csproj" t="IncludeRecursive" />
+        <e p="tsconfig.json" t="Include" />
         <e p="Views" t="Include">
           <e p="_ViewStart.cshtml" t="Include" />
           <e p="Home" t="Include">
