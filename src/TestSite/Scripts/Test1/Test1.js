@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+// @reference ~/Scripts
 var Test1;
 (function (Test1_1) {
     var Test1 = /** @class */ (function () {

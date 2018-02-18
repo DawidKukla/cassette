@@ -1,4 +1,4 @@
-
+// @reference ~/Scripts
 export module Test1{
     export class Test1{
         constructor(){

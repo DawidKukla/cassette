@@ -1,4 +1,5 @@
 "use strict";
+// @reference ~/Scripts
 Object.defineProperty(exports, "__esModule", { value: true });
 var Test1_1 = require("../Test1/Test1");
 var Test2;

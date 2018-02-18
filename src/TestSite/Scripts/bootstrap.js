@@ -1,5 +1,4 @@
-
-require("./jquery-3.3.1");
+var jQuery= require("./jquery-3.3.1")
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
