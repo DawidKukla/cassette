@@ -1118,6 +1118,7 @@
           <e p="jquery-3.3.1.slim.min.map" t="Include" />
           <e p="site.js" t="Include" />
           <e p="Test1" t="Include">
+            <e p="AClass.ts" t="Include" />
             <e p="Test1.ts" t="Include" />
           </e>
           <e p="Test2" t="Include">
