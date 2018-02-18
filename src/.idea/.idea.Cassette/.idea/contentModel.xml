@@ -402,6 +402,35 @@
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
       </e>
+      <e p="Cassette.CommonJs" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BundleCommonJs.cs" t="Include" />
+        <e p="Cassette.CommonJs.csproj" t="IncludeRecursive" />
+        <e p="Cassette.CommonJs.nuspec" t="Include" />
+        <e p="CommonJsAsset.cs" t="Include" />
+        <e p="CommonJsConfiguration.cs" t="Include" />
+        <e p="CommonJsPipelineModifier.cs" t="Include" />
+        <e p="CommonJsSettings.cs" t="Include" />
+        <e p="CommonJsWriter.cs" t="Include" />
+        <e p="ExternalModuleAsset.cs" t="Include" />
+        <e p="ExternalModuleResolver.cs" t="Include" />
+        <e p="FileUtility.cs" t="Include" />
+        <e p="ICommonJsWriter.cs" t="Include" />
+        <e p="IExternalModuleResolver.cs" t="Include" />
+        <e p="IModuleAsset.cs" t="Include" />
+        <e p="ModuleAsset.cs" t="Include" />
+        <e p="ModuleResolutionException.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="ParseModuleReferences.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Resources" t="Include">
+          <e p="require-shim.js" t="Include" />
+        </e>
+        <e p="StreamExtensions.cs" t="Include" />
+      </e>
       <e p="Cassette.Hogan" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Cassette.Hogan.csproj" t="IncludeRecursive" />
