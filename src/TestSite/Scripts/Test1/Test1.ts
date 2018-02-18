@@ -1,5 +1,5 @@
-// @reference ~/Scripts
-module Test1{
+
+export module Test1{
     export class Test1{
         constructor(){
            
@@ -7,7 +7,7 @@ module Test1{
         
         public Log(msg:string){
             console.log(msg)
-        }
+        } 
              
     } 
     new Test1().Log("Test1");

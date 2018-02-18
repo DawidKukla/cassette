@@ -138,6 +138,10 @@
       <Project>{733f8032-d649-4e4c-a23e-4a048c33fcae}</Project>
       <Name>Cassette.Aspnet</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Cassette.CommonJs\Cassette.CommonJs.csproj">
+      <Project>{0d7b5795-21ea-441f-ab63-9db4f6dd6f35}</Project>
+      <Name>Cassette.CommonJs</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Cassette.Spriting\Cassette.Spriting.csproj">
       <Project>{b775612c-baf8-4947-b83b-dd43f802e999}</Project>
       <Name>Cassette.Spriting</Name>
