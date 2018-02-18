@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using System.Text.RegularExpressions;
 using Cassette;
 using Cassette.BundleProcessing;
 using Cassette.Scripts;
@@ -10,7 +12,11 @@ namespace TestSite
     {
         public void Configure(BundleCollection bundles)
         {
-            bundles.AddPerSubDirectory<ScriptBundle>("Scripts");
+            bundles.AddPerSubDirectory<ScriptBundle>("Scripts", new FileSearch
+            {
+                Pattern = "*.js;*.min.js",
+                Exclude = new Regex("Circular.*") // Optional
+            });
             bundles.AddPerSubDirectory<StylesheetBundle>("Content");
         }
         

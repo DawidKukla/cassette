@@ -1112,6 +1112,12 @@
           </e>
           <e p="bootstrap.js" t="Include" />
           <e p="bootstrap.min.js" t="Include" />
+          <e p="Circular1" t="Include">
+            <e p="Circular1.ts" t="Include" />
+          </e>
+          <e p="Circular2" t="Include">
+            <e p="Circular2.ts" t="Include" />
+          </e>
           <e p="jquery-3.3.1-vsdoc.js" t="Include" />
           <e p="jquery-3.3.1.js" t="Include" />
           <e p="jquery-3.3.1.min.js" t="Include" />
