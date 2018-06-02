@@ -1,6 +1,12 @@
 // @reference ~/Scripts
-import {BundleRoot} from "BundleRoot"
+import {BundleRoot} from "../../BundleRoot"; BundleRoot;
 
+/*try {
+    BundleRoot;
+}
+catch (e) {
+    
+}*/
 
 export module AFirstModule{
         export class AFirst{

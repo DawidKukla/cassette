@@ -15,10 +15,10 @@ namespace Cassette.CommonJs
     public ParseModuleReferences(CommonJsSettings settings, IExternalModuleResolver moduleResolver)
     {
       _settings = settings;
-      if (!_settings.Globals.ContainsKey("BundleRoot"))
+      if (!_settings.Globals.ContainsKey("../../BundleRoot"))
       {
-        _settings.Globals.Add("BundleRoot","BundleRoot");
-      }
+        _settings.Globals.Add("../../BundleRoot","BundleRoot");
+             }
       _moduleResolver = moduleResolver;
     }
 
@@ -89,8 +89,8 @@ namespace Cassette.CommonJs
         if (this.IsRequireCall(node))
         {
           var constWrapper = node.Arguments[0] as ConstantWrapper;
-          if (constWrapper != null && constWrapper.PrimitiveType == PrimitiveType.String)
-          {
+          /*if (constWrapper != null && constWrapper.PrimitiveType == PrimitiveType.String)
+          {*/
             _moduleAsset = _moduleAsset ?? new ModuleAsset(_asset);
             var path = (string)constWrapper.Value;
             
@@ -112,12 +112,12 @@ namespace Cassette.CommonJs
               }
 
               _moduleAsset.AddReference(path, 0);
-            }
+            /*}
             else if (this.ShouldIncludeReference(path))
             {
               var mainFile = _moduleResolver.Resolve(path);
               _bundle.Assets.Add(new ExternalModuleAsset(path, mainFile, _bundle));
-            }
+            }*/
           }
 
           return;

@@ -1,7 +1,7 @@
 // @reference ~/Scripts
 
-import {Test1} from "Scripts/Test1/Test1";
-import {AFirstModule} from "Scripts/AFirst/AFirst";
+import {Test1} from "../Test1/Test1";
+import {AFirstModule} from "../AFirst/AFirst";
 
 export module Test2{
         import AFirst = AFirstModule.AFirst;
