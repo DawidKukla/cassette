@@ -1075,8 +1075,6 @@
           <e p="WebApiConfig.cs" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
-        <e p="BundleRoot.js" t="Include" />
-        <e p="BundleRoot.ts" t="Include" />
         <e p="CassetteConfiguration.cs" t="Include" />
         <e p="Content" t="Include">
           <e p="bootstrap-theme.css" t="Include" />

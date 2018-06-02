@@ -2,7 +2,8 @@
 
 import {Test1} from "../Test1/Test1";
 import {AFirstModule} from "../AFirst/AFirst";
-
+/*import {Circular1Module} from "../Circular1/Circular1"
+Circular1Module;*/
 export module Test2{
         import AFirst = AFirstModule.AFirst;
 

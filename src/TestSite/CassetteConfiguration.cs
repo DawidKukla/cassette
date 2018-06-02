@@ -18,7 +18,7 @@ namespace TestSite
             bundles.AddPerSubDirectory<ScriptBundle>("Scripts", new FileSearch
             {
                 Pattern = "*.js;*.min.js;",
-                Exclude = new Regex("Circular.*|BundleRoot.*") // Optional
+                Exclude = new Regex("Circular.*") // Optional
             });
             
             bundles.AddPerSubDirectory<StylesheetBundle>("Content");
