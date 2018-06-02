@@ -1103,6 +1103,13 @@
         <e p="Global.asax" t="Include" />
         <e p="Global.asax.cs" t="Include" />
         <e p="Models" t="Include" />
+        <e p="node_modules" t="Include">
+          <e p="BundleRoot" t="Include">
+            <e p="BundleRoot.js" t="Include" />
+            <e p="BundleRoot.ts" t="Include" />
+            <e p="package.json" t="Include" />
+          </e>
+        </e>
         <e p="obj" t="ExcludeRecursive" />
         <e p="packages.config" t="Include" />
         <e p="Properties" t="Include">

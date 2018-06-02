@@ -1,5 +1,5 @@
 // @reference ~/Scripts
-import {BundleRoot} from "../../BundleRoot"; BundleRoot;
+import {BundleRoot} from "BundleRoot"; BundleRoot;
 
 /*try {
     BundleRoot;

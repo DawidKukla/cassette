@@ -20,9 +20,11 @@ namespace TestSite
                 Pattern = "*.js;*.min.js;",
                 Exclude = new Regex("Circular.*|BundleRoot.*") // Optional
             });
-            bundles.Add<ScriptBundle>("BundleRoot",new List<string>{"~/BundleRoot.js"});
+            
             bundles.AddPerSubDirectory<StylesheetBundle>("Content");
-            /*foreach (var scriptBundle in bundles.OfType<ScriptBundle>())
+            
+            /*bundles.Add<ScriptBundle>("BundleRoot",new List<string>{"~/BundleRoot.js"});
+            foreach (var scriptBundle in bundles.OfType<ScriptBundle>())
             {
                 if (scriptBundle.Path != "~/BundleRoot")
                 {
