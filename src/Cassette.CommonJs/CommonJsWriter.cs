@@ -1,12 +1,18 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
+using System.Text;
 using Cassette.Utilities;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace Cassette.CommonJs
 {
   public class CommonJsWriter : ICommonJsWriter
   {
     private readonly CommonJsSettings _settings;
+    const string SOURCE_MAP_DATA_START = "//# sourceMappingURL=data:application/json;base64,";
 
     public CommonJsWriter(CommonJsSettings settings)
     {
@@ -52,11 +58,27 @@ namespace Cassette.CommonJs
       writer.Write("  body: function (require, module, exports) {{ // start {0}", asset.Path);
       writer.WriteLine();
 
+      
       using (var reader = new StreamReader(asset.OpenStream()))
       {
         string line;
         while ((line = reader.ReadLine()) != null)
         {
+          
+          if (line.StartsWith(SOURCE_MAP_DATA_START))
+          {
+            byte[] data = Convert.FromBase64String(line.Substring(SOURCE_MAP_DATA_START.Length,line.Length-SOURCE_MAP_DATA_START.Length));
+            string decodedString = Encoding.UTF8.GetString(data);
+            var mapJsonOject = JToken.Parse(decodedString);
+            var lines =new LinkedList<string>(mapJsonOject["mappings"].Value<string>().Split(';'));
+            foreach (var i in Enumerable.Range(1,60))
+            {
+              lines.AddFirst("");
+            }
+            mapJsonOject["mappings"].Replace(new JValue(string.Join(";",lines)));
+            var newMapData = Convert.ToBase64String(Encoding.UTF8.GetBytes(mapJsonOject.ToString()));
+            line = SOURCE_MAP_DATA_START + newMapData;
+          }
           writer.Write(line);
           writer.WriteLine();
         }

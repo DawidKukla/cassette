@@ -43,7 +43,7 @@ namespace TestSite
         }
     }
     
-    public class InsertIntoPipelineParseJavaScriptNotTypeScriptReferences : IBundlePipelineModifier<ScriptBundle>
+    /*public class InsertIntoPipelineParseJavaScriptNotTypeScriptReferences : IBundlePipelineModifier<ScriptBundle>
     {
         public IBundlePipeline<ScriptBundle> Modify(IBundlePipeline<ScriptBundle> pipeline)
         {
@@ -53,7 +53,7 @@ namespace TestSite
             pipeline.Insert<ParseJavaScriptNotTypeScriptReferences>(positionOfJavaScriptReferenceParser);
             return pipeline;
         }
-    }
+    }*/
     
     
     
