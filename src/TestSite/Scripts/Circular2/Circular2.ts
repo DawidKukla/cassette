@@ -1,6 +1,6 @@
 // @reference ~/Scripts
 
-import {Circular1Module} from "../Circular1/Circular1";
+import {Circular1Module} from "Scripts/Circular1/Circular1";
 
 export module Circular2Module{
         import Circular1 = Circular1Module.Circular1;

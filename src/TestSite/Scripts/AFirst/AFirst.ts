@@ -1,6 +1,6 @@
 // @reference ~/Scripts
-import {BundleRoot} from "../../BundleRoot"
-try {BundleRoot;}catch (e) {}
+import {BundleRoot} from "BundleRoot"
+
 
 export module AFirstModule{
         export class AFirst{

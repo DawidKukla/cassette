@@ -15,9 +15,9 @@ namespace Cassette.CommonJs
     public ParseModuleReferences(CommonJsSettings settings, IExternalModuleResolver moduleResolver)
     {
       _settings = settings;
-      if (!_settings.Globals.ContainsKey("~/BundleRoot.js"))
+      if (!_settings.Globals.ContainsKey("BundleRoot"))
       {
-        _settings.Globals.Add("~/BundleRoot.js","~/BundleRoot.js");
+        _settings.Globals.Add("BundleRoot","BundleRoot");
       }
       _moduleResolver = moduleResolver;
     }
