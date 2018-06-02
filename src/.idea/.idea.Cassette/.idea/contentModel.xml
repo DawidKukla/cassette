@@ -429,6 +429,7 @@
         <e p="Resources" t="Include">
           <e p="require-shim.js" t="Include" />
         </e>
+        <e p="SourceMapRewriter.cs" t="Include" />
         <e p="StreamExtensions.cs" t="Include" />
       </e>
       <e p="Cassette.Hogan" t="IncludeRecursive">

@@ -66,6 +66,7 @@
     <Compile Include="ModuleResolutionException.cs" />
     <Compile Include="ParseModuleReferences.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SourceMapRewriter.cs" />
     <Compile Include="StreamExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
