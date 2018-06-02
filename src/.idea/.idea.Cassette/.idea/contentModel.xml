@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Admin\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_Cassette.441233344.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Admin\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_Cassette.441233344.00" t="ExcludeRecursive" />
     <e p="C:\Users\Admin\RiderProjects\cassette\src" t="IncludeFlat">
       <e p=".nuget" t="Include">
         <e p="NuGet.Config" t="Include" />
@@ -1075,6 +1075,8 @@
           <e p="WebApiConfig.cs" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
+        <e p="BundleRoot.js" t="Include" />
+        <e p="BundleRoot.ts" t="Include" />
         <e p="CassetteConfiguration.cs" t="Include" />
         <e p="Content" t="Include">
           <e p="bootstrap-theme.css" t="Include" />
