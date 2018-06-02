@@ -21,7 +21,14 @@ namespace Cassette.CommonJs
       _stream = new MemoryStream();
       writer.WriteToStream(_stream, _children);
 
+      RewriteSourceMaps(_stream);
+      
       _hash = _stream.ComputeSHA1Hash();
+    }
+
+    void RewriteSourceMaps(MemoryStream stream)
+    {
+      
     }
 
     public override void Accept(IBundleVisitor visitor)
