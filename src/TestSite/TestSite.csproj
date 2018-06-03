@@ -112,6 +112,10 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\Circular1\Circular1.ts" />
     <Content Include="Scripts\Circular2\Circular2.ts" />
+    <Content Include="Scripts\NamespaceClass2\NameSpaceClass2 .ts" />
+    <Content Include="Scripts\NamespaceClasses\NameSpaceClass1.ts" />
+    <Content Include="Scripts\PlainJavaScript\TestPlainJavaScript.js" />
+    <Content Include="Scripts\SimpleModule\SimpleModule.ts" />
     <Content Include="Scripts\site.js" />
     <Content Include="Scripts\Test1\AClass.ts" />
     <Content Include="Scripts\Test1\BClass .ts" />
@@ -121,6 +125,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\NamespaceReferencingModule.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Web.config" />

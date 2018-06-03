@@ -1134,6 +1134,18 @@
           <e p="jquery-3.3.1.slim.js" t="Include" />
           <e p="jquery-3.3.1.slim.min.js" t="Include" />
           <e p="jquery-3.3.1.slim.min.map" t="Include" />
+          <e p="NamespaceClass2" t="Include">
+            <e p="NameSpaceClass2 .ts" t="Include" />
+          </e>
+          <e p="NamespaceClasses" t="Include">
+            <e p="NameSpaceClass1.ts" t="Include" />
+          </e>
+          <e p="PlainJavaScript" t="Include">
+            <e p="TestPlainJavaScript.js" t="Include" />
+          </e>
+          <e p="SimpleModule" t="Include">
+            <e p="SimpleModule.ts" t="Include" />
+          </e>
           <e p="site.js" t="Include" />
           <e p="Test1" t="Include">
             <e p="AClass.ts" t="Include" />
@@ -1152,6 +1164,7 @@
             <e p="About.cshtml" t="Include" />
             <e p="Contact.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
+            <e p="NamespaceReferencingModule.cshtml" t="Include" />
           </e>
           <e p="Shared" t="Include">
             <e p="_Layout.cshtml" t="Include" />

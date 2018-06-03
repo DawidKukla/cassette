@@ -27,5 +27,12 @@ namespace TestSite.Controllers
 
             return View();
         }
+        
+        public ActionResult NamespaceReferencingModule()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }

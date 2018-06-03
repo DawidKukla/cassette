@@ -1,5 +1,5 @@
 // @reference ~/Scripts
-
+// @reference ~/Scripts/PlainJavaScript
 
 import {AClassModule} from "./AClass";
 import {BClassModule} from "./BClass ";
