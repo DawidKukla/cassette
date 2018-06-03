@@ -6,6 +6,11 @@ export module AClassModule{
         } 
         
         public Log(msg:string){
+            var x1=1;
+            var x1=1;
+            var x1=1;
+            var x1=1;
+            var x1=1;
             console.log(msg)
         } 
              

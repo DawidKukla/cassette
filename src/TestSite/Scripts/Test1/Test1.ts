@@ -12,6 +12,11 @@ export module Test1{
         
         public Log(msg:string){
             var dep=new AClass();
+            var x1=1;
+            var x1=1;
+            var x1=1;
+            var x1=1;
+            var x1=1;
             console.log(msg)
             
         } 

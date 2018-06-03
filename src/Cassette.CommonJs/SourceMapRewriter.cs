@@ -94,23 +94,34 @@ namespace Cassette.CommonJs
             rewritedStream.Position = 0;
             return rewritedStream;
         }
-
-       public void X()
+       class Offset
        {
-           /*if (line.StartsWith(SOURCE_MAP_DATA_START))
-           {
-               byte[] data = Convert.FromBase64String(line.Substring(SOURCE_MAP_DATA_START.Length,line.Length-SOURCE_MAP_DATA_START.Length));
-               string decodedString = Encoding.UTF8.GetString(data);
-               var mapJsonOject = JToken.Parse(decodedString);
-               var lines =new LinkedList<string>(mapJsonOject["mappings"].Value<string>().Split(';'));
-               foreach (var i in Enumerable.Range(1,60))
-               {
-                   lines.AddFirst("");
-               }
-               mapJsonOject["mappings"].Replace(new JValue(string.Join(";",lines)));
-               var newMapData = Convert.ToBase64String(Encoding.UTF8.GetBytes(mapJsonOject.ToString()));
-               line = SOURCE_MAP_DATA_START + newMapData;
-           }*/
+           public int line { get; set; }
+           public int column { get; set; }
        }
+
+       class Map
+       {
+           public int version { get; set; }
+           public string file { get; set; }
+           public List<string> sources { get; set; }
+           public List<object> names { get; set; }
+           public string mappings { get; set; }
+           public List<string> sourcesContent { get; set; }
+       }
+
+       class Section
+       {
+           public Offset offset { get; set; }
+           public Map map { get; set; }
+       }
+
+       class RootObject
+       {
+           public int version { get; set; }
+           public string file { get; set; }
+           public List<Section> sections { get; set; }
+       }
+       
     }
 }
