@@ -114,6 +114,7 @@
     <Content Include="Scripts\Circular2\Circular2.ts" />
     <Content Include="Scripts\site.js" />
     <Content Include="Scripts\Test1\AClass.ts" />
+    <Content Include="Scripts\Test1\BClass .ts" />
     <Content Include="Scripts\Test2\Test2.ts" />
     <Content Include="Scripts\Test1\Test1.ts" />
     <Content Include="tsconfig.json" />
