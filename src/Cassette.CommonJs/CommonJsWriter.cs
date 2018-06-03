@@ -11,6 +11,8 @@ namespace Cassette.CommonJs
 {
   public class CommonJsWriter : ICommonJsWriter
   {
+    public const string LOCAL_REQUIRE_SCRIPT_END = "~~LOCAL_REQUIRE_SCRIPT_END~~";
+    public const string LOCAL_REQUIRE_SCRIPT_START = "~~LOCAL_REQUIRE_SCRIPT_START~~";
     private readonly CommonJsSettings _settings;
     
 
@@ -55,7 +57,7 @@ namespace Cassette.CommonJs
       writer.Write(",");
       writer.WriteLine();
 
-      writer.Write("  body: function (require, module, exports) {{ // start {0}", asset.Path);
+      writer.Write("  body: function (require, module, exports) {{ // {0} {1}", asset.Path,LOCAL_REQUIRE_SCRIPT_START);
       writer.WriteLine();
 
       
@@ -69,8 +71,7 @@ namespace Cassette.CommonJs
         }
       }
 
-      writer.WriteLine();
-      writer.WriteFormat("  }}, // end {0}", asset.Path);  // end body
+      writer.WriteFormat("  }}, // {0} {1}", asset.Path,LOCAL_REQUIRE_SCRIPT_END);  // end body
       writer.WriteLine();
 
       writer.Write("  refs: {");
