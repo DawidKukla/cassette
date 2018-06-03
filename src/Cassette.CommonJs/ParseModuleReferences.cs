@@ -135,12 +135,12 @@ namespace Cassette.CommonJs
 
       private bool IsRequireCall(CallNode node)
       {
-        return node.Function.ToCode() == "require" && node.Arguments.Count > 0;
+        return node.Function.Context.Code == "require" && node.Arguments.Count > 0;
       }
 
       private bool IsExportMember(AstNode node)
       {
-        return node.ToCode() == "module.exports" || node.LeftHandSide.ToCode() == "exports";
+        return node.Context.Code == "module.exports" || node.LeftHandSide.Context.Code == "exports";
       }
     }
   }

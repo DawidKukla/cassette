@@ -32,7 +32,7 @@ namespace Cassette.RequireJS
 
         bool IsDefineFunction(CallNode node)
         {
-            return node.Function.ToCode() == "define";
+            return node.Function.Context.Code == "define";
         }
     }
 }
