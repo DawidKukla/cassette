@@ -8,15 +8,16 @@ using Newtonsoft.Json;
 
 namespace Cassette.CommonJs
 {
-    public class SourceMapRewriter
+    public class SourceMapRewriter : ISourceMapRewriter
     {
         const string SOURCE_MAP_DATA_START = "//# sourceMappingURL=data:application/json;base64,";
-        readonly CompositeSourceMap _compositeSourceMap = new CompositeSourceMap();
+        CompositeSourceMap _compositeSourceMap;
 
         public MemoryStream Rewrite(MemoryStream stream)
         {
             var rewritedStream = new MemoryStream();
-
+            _compositeSourceMap= new CompositeSourceMap();
+            
             var counter = 1;
             var lineOffset = 0;
 
@@ -60,7 +61,7 @@ namespace Cassette.CommonJs
             writer.WriteLine(SOURCE_MAP_DATA_START + newMapData);
         }
 
-        static string EncodeBase64(string serializedSourceMap)
+        string EncodeBase64(string serializedSourceMap)
         {
             var newMapData =
                 Convert.ToBase64String(Encoding.UTF8.GetBytes(serializedSourceMap));
@@ -97,7 +98,7 @@ namespace Cassette.CommonJs
             });
         }
 
-        static int MarkOffset(int counter, StreamWriter writer, string line)
+        int MarkOffset(int counter, StreamWriter writer, string line)
         {
             var lineOffset = counter;
             writer.WriteLine(line);

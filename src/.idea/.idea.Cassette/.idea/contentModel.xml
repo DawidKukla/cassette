@@ -418,6 +418,7 @@
         <e p="ICommonJsWriter.cs" t="Include" />
         <e p="IExternalModuleResolver.cs" t="Include" />
         <e p="IModuleAsset.cs" t="Include" />
+        <e p="ISourceMapRewriter.cs" t="Include" />
         <e p="ModuleAsset.cs" t="Include" />
         <e p="ModuleResolutionException.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />

@@ -13,16 +13,16 @@ namespace Cassette.CommonJs
     private readonly MemoryStream _stream;
     private readonly byte[] _hash;
     
-    internal CommonJsAsset(string path, IEnumerable<IAsset> children, ICommonJsWriter writer)
+    internal CommonJsAsset(string path, IEnumerable<IAsset> children, ICommonJsWriter writer,
+      ISourceMapRewriter sourceMapRewriter)
     {
       _path = path;
       _children = children.ToArray();
       
       _stream = new MemoryStream();
       writer.WriteToStream(_stream, _children);
-
       
-      _stream = new SourceMapRewriter().Rewrite(_stream);
+      _stream = sourceMapRewriter.Rewrite(_stream);
       
       _hash = _stream.ComputeSHA1Hash();
     }

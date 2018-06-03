@@ -62,6 +62,7 @@
     <Compile Include="ICommonJsWriter.cs" />
     <Compile Include="IExternalModuleResolver.cs" />
     <Compile Include="IModuleAsset.cs" />
+    <Compile Include="ISourceMapRewriter.cs" />
     <Compile Include="ModuleAsset.cs" />
     <Compile Include="ModuleResolutionException.cs" />
     <Compile Include="ParseModuleReferences.cs" />
